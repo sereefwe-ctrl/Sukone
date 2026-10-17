@@ -71,6 +71,23 @@
     margin-top: 4px;
   }
 
+  .portfolio-row.has-logo {
+    align-items: center;
+  }
+
+  .portfolio-row .name.with-logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .portfolio-row .name .logo {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    flex: none;
+  }
+
   .portfolio-row .round {
     font-size: 12px;
     color: #999999;
@@ -85,8 +102,8 @@
 
     <p class="section-label">portfolio</p>
     <div class="portfolio">
-      <div class="portfolio-row">
-        <span class="name"><a href="https://parasma.com/" target="_blank" rel="noopener">Parasma</a><span class="desc">biological computing powered by living neurons.</span></span>
+      <div class="portfolio-row has-logo">
+        <span class="name with-logo"><img class="logo" src="/images/parasma.jpg" alt="Parasma logo" width="44" height="44"><span class="txt"><a href="https://parasma.com/" target="_blank" rel="noopener">Parasma</a><span class="desc">biological computing powered by living neurons.</span></span></span>
         <span class="round">seed round</span>
       </div>
       <div class="portfolio-row">
